@@ -1,7 +1,7 @@
 import React from 'react'
-import "./styles/Locationinfo.css"
+import "./styles/LocationInfo.css"
 
-const Locationinfo = ({location}) => {
+const LocationInfo = ({location}) => {
 return (
     <div>
         <section className='Locationinfo'>
@@ -16,4 +16,4 @@ return (
 )
 }
 
-export default Locationinfo
+export default LocationInfo
