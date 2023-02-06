@@ -3,7 +3,7 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import './App.css'
 import Header from './components/Header'
-import LocationInfo from './components/LocationInfo'
+import LocationInform from './components/LocationInform'
 import Pagination from './components/Pagination'
 import ResidentCard from './components/residentCard'
 import ResidentForm from './components/ResidentForm'
@@ -51,7 +51,7 @@ function App() {
     <div className="App">
       <Header/>
       <ResidentForm handleSubmit={handleSubmit}/>
-      <LocationInfo location={location}/>
+      <LocationInform location={location}/>
       <Pagination location={location} RESIDENTS_PERPAGE={RESIDENTS_PERPAGE}  numbersPage={numbersPage} setPage={setPage}/>
       <ResidentList pagination={pagination}/>
       <Pagination location={location} RESIDENTS_PERPAGE={RESIDENTS_PERPAGE}  numbersPage={numbersPage} setPage={setPage}/>

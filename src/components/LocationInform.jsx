@@ -3,6 +3,7 @@ import "./styles/LocationInfo.css"
 
 const LocationInfo = ({location}) => {
 return (
+    //si
     <div>
         <section className='Locationinfo'>
             <h2 className='Locationinfo__name'>{location?.name}</h2>
